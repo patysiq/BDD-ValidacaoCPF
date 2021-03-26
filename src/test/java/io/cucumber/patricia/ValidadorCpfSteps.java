@@ -20,7 +20,7 @@ public class ValidadorCpfSteps{
 
     @Quando("eu acesso o sistema de validacao de CPF")
     public void eu_acesso_o_sistema_de_validacao_de_CPF() {
-        browser.get("http://localhost:8080/");
+        browser.get("http://localhost:8081/");
     }
 
     @Quando("digito no campo nome {string}")
